@@ -15,10 +15,10 @@ orbs:
 executors:
   cimg:
     docker:
-      - image: cimg/base:2023.07
+      - image: cimg/base:2024.06
   linux:
     machine:
-      image: ubuntu-2204:2023.07.2
+      image: ubuntu-2204:2024.04.1
   mac:
     macos:
       xcode: 14.0.0
