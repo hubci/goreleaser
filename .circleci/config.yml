@@ -114,7 +114,7 @@ jobs:
     executor: <<parameters.runner>>
     steps:
       - gor/install:
-          version: "1.21.1"
+          version: "2.0.1"
       - run:
           name: "Try running GoReleaser"
           command: goreleaser --version
